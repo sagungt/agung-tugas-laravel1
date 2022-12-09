@@ -1,8 +1,9 @@
 <div class="card mb-3 mx-auto" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="{{ $user['foto'] }}" class="img-fluid rounded-start" alt=".{{ $user['bio'] }}">
+      {{-- <img src="{{ $user['foto'] }}" class="img-fluid rounded-start" alt=".{{ $user['bio'] }}"> --}}
       {{-- <img src="{{ asset('img/'.$fotoId.'.jpg') }}" class="img-fluid rounded-start" alt="{{ $user['bio'] }}"> --}}
+      <img src="https://i.pravatar.cc/300" class="img-fluid rounded-start" alt="{{ $user['bio'] }}">
     </div>
     <div class="col-md-8">
       <div class="card-body">
